@@ -114,3 +114,5 @@ CREATE INDEX ON :S3Bucket(id);
 CREATE INDEX ON :S3Bucket(name);
 CREATE INDEX ON :S3Bucket(arn);
 CREATE INDEX ON :User(arn);
+CREATE INDEX ON :Greeting(id);
+CREATE INDEX ON :Place(id);
